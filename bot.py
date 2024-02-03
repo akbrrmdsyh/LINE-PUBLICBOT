@@ -8,7 +8,7 @@ import os, sys, cmd, livejson, traceback
 login = livejson.File('data/OPTION/login.json',True, False, 4)
 
 if login["email"] != None:
-    client = LINE(login["email"],login["pass"])
+    client = LINE(login["razorret13@gmail.com"],login["akbargtg12"])
 elif login["token"] != None:
     client = LINE(idOrAuthToken=login["token"])
 elif login["token"] is None:
